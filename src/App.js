@@ -16,6 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>Fully working and deployed full stack app by me!</h3>
+        <p>I just updated Front-end and Back-end and its fully working full-stack website!</p>
         <ol>
         { data.map(user => <li>{ user.name }</li>) }
         </ol>
